@@ -1,3 +1,12 @@
+#create a new subnet in an existing virtual network
+Add-AzVirtualNetworkSubnetConfig
+
+#add a DNS record to a zone that will resolve a FQDN to IPv4
+az network private-dns record-set a add-record
+
+#add a DNS record to a zone that will resolve a FQDN to IPv6
+az network private-dns record-set aaaa add-record
+
 #TODO Create an Azure Resource using scripts in Azure PowerShell 
 # ========================================================================================================================
 
