@@ -1,0 +1,9 @@
+// retrive the count of events by type in the last 7 days
+
+let startTime = (7d);
+let endTime = now();
+
+Events
+| where Timestamp between (startTime .. endTime)
+| summarize EventCount = count() by EventType
+| order by EventCount desc
