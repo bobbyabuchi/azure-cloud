@@ -1,3 +1,5 @@
+#...updated azure-administration-cli.sh
+
 #..COMPUTE....................................................
 
 # create a windows virtual machine with arm template
